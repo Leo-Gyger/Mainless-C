@@ -1,6 +1,6 @@
 # Mainless-C
 
-##uses and explainations
+## uses and explainations
 
 The entire purpose of not having any main/replacing it with a macro is simple,
 adding more modularity to your code, maybe it shall have a main only twice a day,
@@ -9,9 +9,9 @@ And then set a environmental variable that would allow the text macro to write a
 More realistically it's very useful in case you want to do some kernel scripting,
 or simply writes scripts in C that might or might not be called inside a bigger program.
 
-##example
+## example
 
-[See here an example of a code that doesn't have a main and yet it is compiled]
+[See here an example of a code that doesn't have a main and yet it is compiled](https://github.com/lgyger/Mainless-C/edit/main/test.c)
 You could add an ifndef to make sure that said main exist or is replaced only 
 in specific cases for debugging for example. Or maybe a main that takes 4 types
 of arguments.
